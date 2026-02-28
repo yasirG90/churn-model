@@ -1,0 +1,8 @@
+#!/bin/sh
+'''exec' "/Users/yasirm3pro/Documents/Virgin Active/Churn Model /venv/bin/python3" "$0" "$@"
+' '''
+import sys
+from jupyter_console.app import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())
