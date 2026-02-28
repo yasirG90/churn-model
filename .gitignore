@@ -11,8 +11,10 @@ __pycache__/
 .ipynb_checkpoints
 
 # Data and Models
-data/
-models/
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
 
 # OS generated files
 .DS_Store
