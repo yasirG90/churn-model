@@ -117,3 +117,5 @@ widgetsnbextension==4.0.15
 zipp==3.23.0
 statsmodels==0.14.6
 patsy==1.0.2
+fastapi==0.115.14
+uvicorn==0.35.0
